@@ -1,0 +1,155 @@
+{
+    "1":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream1",
+        "geoLocation": 
+        {
+            "latitude": "12.972442",
+            "longitude": "77.580643"
+        },
+        "encoding": "MP4"
+    },
+
+    "2":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream2",
+        "geoLocation": 
+        {
+            "latitude": "15.2993265",
+            "longitude": "74.12399600000003"
+        },
+        "encoding": "MP4"
+    },
+
+    "3":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream3",
+        "geoLocation": 
+        {
+            "latitude": "19.076090",
+            "longitude": "72.877426"
+        },
+        "encoding": "MP4"
+    },
+
+    "4":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream4",
+        "geoLocation": 
+        {
+            "latitude": "18.516726",
+            "longitude": "73.856255"
+        },
+        "encoding": "MP4"
+    },
+
+    "5":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream5",
+        "geoLocation": 
+        {
+            "latitude": "13.0826802",
+            "longitude": "80.2707184"
+        },
+        "encoding": "MP4"
+    },
+
+    "6":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream6",
+        "geoLocation": 
+        {
+            "latitude": "11.342423",
+            "longitude": "77.728165"
+        },
+        "encoding": "MP4"
+    },
+
+    "7":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream7",
+        "geoLocation": 
+        {
+            "latitude": "11.410000",
+            "longitude": "76.699997"
+        },
+        "encoding": "MP4"
+    },
+
+    "8":
+    {
+        "rtsp_url": "rtsp://216.48.184.244:8554/live.stream8",
+        "geoLocation": 
+        {
+            "latitude": "26.9124336",
+            "longitude": "75.7872709"
+        },
+        "encoding": "MP4"
+    },
+
+    "9":
+    {
+        "rtsp_url": "rtsp://happymonk:admin123@streams.ckdr.co.in:1554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+        "geoLocation": 
+        {
+            "latitude": "26.9124336",
+            "longitude": "75.7872709"
+        },
+        "encoding": "H264"
+    },
+
+    "10":
+    {
+        "rtsp_url": "rtsp://test:test123456789@streams.ckdr.co.in:2554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+        "geoLocation": 
+        {
+            "latitude": "22.572645",
+            "longitude": "88.363892"
+        },
+        "encoding": "H264"
+    },
+
+    "11":
+    {
+        "rtsp_url": "rtsp://happymonk:admin123@streams.ckdr.co.in:3554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+        "geoLocation": 
+        {
+            "latitude": "9.919",
+            "longitude": "78.11953"
+        },
+        "encoding": "H264"
+    },
+
+    "12":
+    {
+        "rtsp_url": "rtsp://happymonk:admin123@streams.ckdr.co.in:4554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+        "geoLocation": 
+        {
+            "latitude": "11.919336",
+            "longitude": "79.773631"
+        },
+        "encoding": "H265"
+    },
+
+    "13":
+    {
+        "rtsp_url": "rtsp://happymonk:admin123@streams.ckdr.co.in:5554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+        "geoLocation": 
+        {
+            "latitude": "25.612677",
+            "longitude": "85.158875"
+        },
+        "encoding": "H264"
+    },
+
+    "14":
+    {
+        "rtsp_url": "rtsp://happymonk:admin123@streams.ckdr.co.in:6554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif",
+        "geoLocation": 
+        {
+            "latitude": "12.91723",
+            "longitude": "74.85603"
+        },
+        "encoding": "H265"
+    }
+}

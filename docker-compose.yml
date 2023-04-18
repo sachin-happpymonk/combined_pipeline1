@@ -1,0 +1,45 @@
+version: '3.4'
+services:
+   detection:
+      build:
+         context: .
+         dockerfile: Dockerfile
+      restart: unless-stopped
+      ports:
+         - '6544:6543'
+      environment:
+         ipfs: '/dns/ipfs.ckdr.co.in/tcp/5001'
+         nats: "['nats://216.48.181.154:5222', 'nats://216.48.181.154:5223', 'nats://216.48.181.154:5224', 'nats://216.48.181.154:5225', 'nats://216.48.181.154:5226']"
+         pghost: '216.48.182.5'
+         pgdb: 'postgres'
+         pgport: '5432'
+         pguser: 'postgres'
+         pgpassword: 'Happy@123'
+      deploy:
+         resources:
+            reservations:
+               devices:
+                  - driver: nvidia
+                    count: 1
+                    capabilities: [gpu]
+      volumes:
+         - streams_data:/app
+      networks:
+         - app-network
+   nginx:
+      image: nginx:latest
+      restart: unless-stopped
+      ports:
+         - '8001:80'
+      depends_on:
+         - detection
+      volumes:
+         - ./nginx:/etc/nginx:ro
+         - streams_data:/usr/share/nginx/html
+      networks:
+         - app-network
+volumes:
+   streams_data:
+networks:
+   app-network:
+      driver: bridge
